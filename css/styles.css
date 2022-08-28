@@ -1,0 +1,178 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #EAF6F6;
+}
+
+div {
+  background-color: #EAF6F6;
+  margin: 0;
+
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  font-weight: bolder;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+
+  /**way of centering
+  margin: 0 auto 0 auto;
+  **/
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+hr {
+  color: silver;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 3%;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+a {
+  color: #11999E;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/******************CLASS CSS******************/
+
+.img {
+  padding-top: 30px;
+  width: 25%;
+}
+
+.profile-pic {
+  margin: auto 30 auto 30;
+  padding-top: 50px;
+}
+.top-container {
+  background-color: #CEE5D0;;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+
+}
+
+.bottom-container {
+  padding-top: 100px;
+  background-color: #809A6F;
+  padding-top: 30px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  top: 450px;
+
+}
+
+.compsci-pic {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.food-pic {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+
+}
+
+.code-skill-description {
+  clear: left;
+}
+
+.cooking-description {
+  clear: right;
+}
+
+.contact-me {
+  padding-bottom: 50px;
+  margin-bottom: 25px;
+
+}
+
+.footer-link {
+  color: #A25B5B;
+  padding: 30px 15px 15px 30px;
+  text-decoration: none;
+}
+
+.contact-paragraph {
+  margin-bottom: 50px;
+  margin-top: 30px;
+
+}
+
+/******************ID CSS******************/
+#name-surname {
+  font-size: 15px;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  position: relative;
+
+}
